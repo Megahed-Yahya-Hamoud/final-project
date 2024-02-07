@@ -125,8 +125,6 @@ export default function Header() {
               </>
             ) : (
               <>
-                <Search />
-
                 <Link className={classes.login} to={URLS.auth.login}>
                   Log in
                 </Link>

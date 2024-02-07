@@ -160,7 +160,7 @@ export default function BigCoursesPage({ params }: any) {
         <Container
           className={classes.containerState}
           bg={"white"}
-          mt={-50}
+          mt={-20}
           size={"lg"}>
           <Grid>
             <Grid.Col span={{ base: 12, md: 6, lg: 3 }}>
