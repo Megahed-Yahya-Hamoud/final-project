@@ -37,6 +37,7 @@ export function reverseGuardedRoutes(routes: Route[]) {
   return router.group({
     middleware: [ReverseGuardian],
     routes,
+    layout: BaseLayout,
   });
 }
 

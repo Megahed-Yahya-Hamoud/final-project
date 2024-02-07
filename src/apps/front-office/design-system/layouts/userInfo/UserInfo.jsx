@@ -1,13 +1,14 @@
 import { Avatar, Button, Group, Text, UnstyledButton } from "@mantine/core";
 import { notifications } from "@mantine/notifications";
+import cache from "@mongez/cache";
 import Search from "../search/Search";
 import classes from "./UserInfo.module.css";
 
 export function UserInfo() {
-  let user = JSON.parse(localStorage.getItem("loggedInUser"));
+  let user = cache.get("loggedInUser");
 
   function logout() {
-    localStorage.removeItem("loggedInUser");
+    cache.remove("loggedInUser");
     notifications.show({
       message: "Success logout",
       color: "green",
