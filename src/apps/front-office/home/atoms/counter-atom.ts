@@ -1,6 +1,6 @@
 import { atom } from "@mongez/react-atom";
 
-export const counterAtom = atom({
-  key: "counter",
-  default: 0,
+export const loginAtom = atom<any>({
+  key: "login",
+  default: {},
 });

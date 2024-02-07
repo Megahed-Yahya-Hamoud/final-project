@@ -1,8 +1,8 @@
-import { publicRoutes } from "apps/front-office/utils/router";
+import { reverseGuardedRoutes } from "apps/front-office/utils/router";
 import URLS from "apps/front-office/utils/urls";
 import Login from "./component/Login";
 
-publicRoutes([
+reverseGuardedRoutes([
   {
     path: URLS.auth.login,
     component: Login,

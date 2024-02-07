@@ -1,6 +1,7 @@
 /* eslint-disable no-undef */
 import { Button, Title } from "@mantine/core";
 import { notifications } from "@mantine/notifications";
+import cache from "@mongez/cache";
 import { ErrorMessage, Field, Form, Formik } from "formik";
 import classes from "./Login.module.css";
 import LoginSchema from "./LoginSchema/LoginSchema";
@@ -13,7 +14,7 @@ export default function Login() {
       .then(res => res.json())
       .then(data => {
         if (data.length) {
-          localStorage.setItem("loggedInUser", JSON.stringify(data[0]));
+          cache.set("loggedInUser", data[0]);
           notifications.show({
             message: "Success login",
             color: "green",

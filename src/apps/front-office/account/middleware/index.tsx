@@ -1,3 +1,4 @@
+import cache from "@mongez/cache";
 import { navigateTo } from "@mongez/react-router";
 import user from "apps/front-office/account/user";
 import URLS from "apps/front-office/utils/urls";
@@ -15,9 +16,11 @@ export function Guardian() {
  * Use this middleware if you want to redirect the user to the home page if he/she is logged in
  */
 export function ReverseGuardian() {
-  if (user.isLoggedIn() && !user.isGuest()) {
+  if (cache.has("loggedInUser")) {
     return navigateTo(URLS.home);
   }
+
+  return null;
 }
 
 /**

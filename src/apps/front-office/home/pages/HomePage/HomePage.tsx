@@ -1,3 +1,4 @@
+import cache from "@mongez/cache";
 import SeactionRegister from "apps/front-office/design-system/layouts/Seaction-register/SeactionRegister";
 import { CardsCarousel } from "apps/front-office/design-system/layouts/carousel/CardsCarousel";
 import StatsContainer from "apps/front-office/design-system/layouts/counter/StatsContainer";
@@ -10,6 +11,8 @@ import LestJobs from "./../../../design-system/layouts/sectionJobs/LestJobs";
 import "./HomePage.scss";
 
 export default function HomePage() {
+  console.log(cache.get("loggedInUser")?.id);
+
   return (
     <>
       <PragrapheLogo />
