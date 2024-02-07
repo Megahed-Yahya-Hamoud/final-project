@@ -1,4 +1,4 @@
-import { Box, Button, Container, Grid, Text } from "@mantine/core";
+import { Box, Button, Container, Divider, Grid, Text } from "@mantine/core";
 import { notifications } from "@mantine/notifications";
 import { useEffect, useState } from "react";
 import Marquee from "react-fast-marquee";
@@ -581,6 +581,7 @@ export default function BigCoursesPage({ params }: any) {
           </Grid.Col>
         </Grid>
       </Container>
+      <Divider my={"sm"} mx={100} />
       <Container size={"xl"} my={50}>
         <Text ta="center" fz={30} fw={700} mt={30} mb={25}>
           FAQs
