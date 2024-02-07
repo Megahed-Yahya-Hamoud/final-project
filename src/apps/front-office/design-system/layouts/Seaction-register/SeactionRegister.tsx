@@ -23,7 +23,7 @@ export default function SeactionRegister() {
             </a>
           </div>
           <div>
-            <a href="#" className={classes.register}>
+            <a href="/register" className={classes.register}>
               Register now
             </a>
           </div>
