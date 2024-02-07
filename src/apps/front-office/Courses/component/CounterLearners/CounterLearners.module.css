@@ -1,0 +1,118 @@
+.styleCounter {
+  background: white;
+  margin: -120px 100px 100px;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow:
+    rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+.fastest {
+  font-size: 35px;
+  line-height: 40px;
+  font-weight: 700;
+}
+
+.dash {
+  display: inline-block;
+  height: 24px;
+  width: 8px;
+  background: linear-gradient(180deg, #5dc5ff 0, #3cb8fe 100%);
+  border-radius: 1px;
+  margin-right: 12px;
+}
+
+.realSuccess {
+    color: #333;
+  font-size: 17px;
+  /* line-height: 24px; */
+  font-weight: 500;
+  margin-top: 16px;
+}
+
+
+.state{
+    margin:0px;
+    font-size: 48px;
+    line-height: 58px;
+    font-weight: 700;
+    background: linear-gradient(180deg,#00a5ec 0,#008bdc 170%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    width: 186px;
+}
+
+.nameState{
+    color: #333;
+    margin-top: 4px;
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: 600;
+}
+.stateOne,
+.stateTwo,
+.stateThree{
+    padding-left:50px;
+    border-right:solid 1px rgb(0 156 231 / 42%);
+}
+
+@media (max-width:1200px){
+    .stateOne,
+.stateThree{
+    padding-left:50px;
+    border-right:solid 1px rgb(0 156 231 / 42%);
+}
+.stateTwo{
+    border-right:0px;
+    border-bottom:solid 1px rgb(0 156 231 / 42%);
+}
+.stateThree{
+    margin-top:-1px;
+    border-top:solid 1px rgb(0 156 231 / 42%);
+}
+.stateFour{
+    padding:10px 0px 0px 50px
+}
+}
+
+@media (max-width:991px){
+    .stateOne,
+    .stateTwo,
+    .stateThree{
+        
+    border-top:0px;
+    border-right:0px;
+    border-bottom:0px
+        /* border-bottom:solid 1px rgb(0 156 231 / 42%); */
+    }
+    .stateThree{
+        margin-top:0px;
+    }
+    .stateFour{
+        padding:auto
+    }
+    
+
+}
+
+@media (max-width: 451px) {
+    .styleCounter{
+        margin:-120px 20px 100px
+    }
+  .fastest {
+    font-size: 25px;
+    line-height: 20px;
+    font-weight: 600;
+  }
+
+  .dash {
+    display: inline-block;
+    height: 20px;
+    width: 5px;
+    background: linear-gradient(180deg, #5dc5ff 0, #3cb8fe 100%);
+    border-radius: 1px;
+    margin-right: 10px;
+  }
+}
+

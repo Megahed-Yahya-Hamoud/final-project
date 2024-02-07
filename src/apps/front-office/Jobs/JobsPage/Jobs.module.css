@@ -1,0 +1,133 @@
+.up {
+}
+.filter {
+  background-color: rgb(255, 255, 255);
+  position: sticky;
+  top: 50px;
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+  border-radius:10px;
+  padding:1px 1px 5px;
+  margin-top:20px
+  
+}
+
+.filterIcon {
+  margin: 0px;
+  padding: 10px;
+  font-size: 17px;
+  line-height: 1.25;
+  font-weight: 700;
+}
+
+
+
+/* .autocomplete_work{
+    margin: 5px 0px 10px;
+}
+
+.autocomplete_loc{
+    margin: 5px 0px -11px;
+} */
+
+.styleIntern{
+    display: block;
+    padding: 20px;
+    margin:20px;
+    border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+  text-decoration:none;
+}
+
+.actively {
+  padding: 4px 7px;
+  border: 1px solid #ddd;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 6px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 4px;
+  margin-bottom: 12px;
+}
+
+.active_hiring {
+  font-size: 14px;
+  line-height: 1.33333333;
+  font-weight: 500;
+  color: #484848;
+  margin: 1px;
+}
+
+.hint{
+  color: #484848;
+  font-family: Inter,sans-serif;
+  font-weight: 600;
+  line-height: 1.33;
+  margin-top:0px
+}
+
+.title{
+  color: #8A8A8A;
+  font-family: Inter,sans-serif;
+  font-weight: 600;
+  line-height: 1.43;
+  margin-top:0px
+
+}
+
+.country{
+  line-height: 22px;
+    color: #333;
+    font-family: Inter,sans-serif;
+    font-weight: 400;
+}
+
+.start{
+  font-size: 13px;
+    line-height: 16px;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    color: #8A8A8A;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: Inter,sans-serif;
+    font-weight: 500;
+    margin-bottom:5px
+
+}
+
+.immediately{
+  color: #333;
+  font-family: Inter,sans-serif;
+  height: 100%;
+  font-size: 15px;
+  line-height: 1.57142857;
+  font-weight: 400;
+  margin:0px
+}
+
+.info{
+  display: flex;
+  justify-content: start;
+}
+
+@media (max-width: 450px){
+  .styleIntern{
+    margin:20px 0px
+  }
+  .info{
+    display:grid;
+  }
+  .country{
+    margin-bottom:5px
+  }
+  .start{
+    margin:0px;
+  }
+}

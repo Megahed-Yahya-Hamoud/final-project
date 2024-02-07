@@ -1,0 +1,31 @@
+{
+  "path": "/",
+  "name": "front-office",
+  "modules": [
+    {
+      "entry": ["/", "/404"],
+      "name": "home"
+    },
+    {
+      "entry": ["/internships"],
+      "name": "InternShips"
+    },
+    {
+      "entry": ["/courses", "/big-courses"],
+      "name": "Courses"
+    },
+    {
+      "entry": ["/jobs"],
+      "name": "Jobs"
+    },
+    {
+      "entry":["/register"],
+      "name":"Register"
+    },
+    {
+      "entry":["/login"],
+      "name":"Login"
+    }
+
+  ]
+}

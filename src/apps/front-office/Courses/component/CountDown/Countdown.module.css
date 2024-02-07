@@ -1,0 +1,13 @@
+.styleCounter{
+    background-color:rgb(231,246,255);
+    display:flex;
+    justify-content:center;
+    gap:2rem;
+    color:rgb(23,87,170);
+    padding:15px;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+    border-radius:10px;
+    margin-top:10px
+}

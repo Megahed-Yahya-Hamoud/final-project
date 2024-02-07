@@ -1,0 +1,60 @@
+.up{
+    margin-top:50px;
+    border-top: 1px solid #0000001f;
+    padding-top:80px
+    
+}
+
+
+.counter{
+    font-size: 48px;
+    line-height: 1.20833333;
+    font-weight: 700;
+    color: #006BC2;
+    margin-bottom:2px;
+    margin-top:0px;
+}
+
+.title {  
+    font-size: 20px;
+    line-height: 1.6;
+    font-weight: 400;
+    color: #484848;
+    margin: 0;
+}
+
+.frameOne , .frameTwo , .frameThree {
+    border-right: 1px solid #0000001f;
+    padding-top:0px;
+}
+
+@media (max-width:1200px){
+    .frameTwo{
+        border-right:0px;
+        border-bottom: 1px solid #0000001f;    
+    }
+    .frameThree{
+        border-top: 1px solid #0000001f;    
+    }
+    .frameThree , .frameFour{
+    margin-top: -1px;
+    padding-top:20px;
+    }
+}
+
+@media (max-width: 550px){
+    .counter{
+        font-size: 30px;
+    line-height: 1.20833333;
+    font-weight: 700;
+    }
+    .title{
+    font-size: 15px;
+    line-height: 1.6;
+    font-weight: 400;
+    }
+    .frameThree , .frameFour{
+        margin-top: -0.2px;
+        padding-top:20px;
+        }
+} 

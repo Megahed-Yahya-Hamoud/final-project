@@ -1,0 +1,78 @@
+.up {
+  margin-top: 90px;
+  background-image: url("https://internshala.com/static/images/homepage/footer_bg_1920.png");
+  background-size: cover;
+  background-position: center;
+  padding: 50px 16px;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.empower {
+  font-size: 32px;
+  line-height: 1.25;
+  font-weight: 700;
+  color: #fff;
+  width: 570px;
+  text-align: start;
+}
+@media (max-width:880px){
+    .container{
+        display:grid;
+        justify-content: center;
+    }
+    .empower{
+        text-align: center;
+        width: 100%;
+        font-size: 25px;
+        font-weight: 500;
+    }
+    .buts{
+        justify-content:center
+    }
+}
+
+.buts{
+    display: flex;
+     gap: 1rem;
+}
+
+@media (max-width:1200px){
+    .buts{
+        display:grid;
+    }
+}
+.butGoogle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 17px;
+  line-height: 1.5;
+  font-weight: 600;
+  gap: 8px;
+  width: 264px;
+  color: #333;
+  background-color: #fff;
+  padding: 12px 0;
+  border-radius: 4px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.register {
+  display: inline-block;
+  text-align: center;
+  font-size: 17px;
+  line-height: 1.5;
+  font-weight: 600;
+  color: #fff;
+  width: 265px;
+  background-color: #00489a;
+  padding: 13px 0;
+  border-radius: 4px;
+  text-decoration: none;
+  cursor: pointer;
+}
+

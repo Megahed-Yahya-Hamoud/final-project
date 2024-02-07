@@ -1,0 +1,142 @@
+.up {
+  background-color: #f8f8f8;
+  margin-top: 100px ;
+  padding:20px 30px 30px
+}
+.titleInternship {
+  display: inline-block;
+  margin-top: 50px;
+  font-size: 28px;
+  line-height: 1.28571429;
+  font-weight: 700;
+  color: #333;
+  margin-bottom:15px
+}
+.categories {
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.category{
+  overflow: none;
+  height: fit-content;
+  text-align: center;
+  padding: 8px 10px;
+  cursor: pointer;
+  font-size: 15px;
+  margin: 0px 8px 0px 0px;
+  border: solid 1px #0303033b;
+  border-radius: 22px;
+}
+@media (max-width: 700px) {
+  .categories {
+    display: block;
+  }
+  .category {
+    margin: 5px 5px;
+    display: inline-block;
+  }
+}
+
+.actively {
+  padding: 3px 7px;
+  border: 1px solid #ddd;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 6px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 4px;
+  margin-bottom: 12px;
+}
+.linkCard {
+  text-decoration: none;
+  cursor: pointer;
+}
+.active_hiring {
+  font-size: 12px;
+  line-height: 1.33333333;
+  font-weight: 500;
+  color: #484848;
+  margin: 1px;
+}
+.card {
+  padding: 20px;
+  background-color: white;
+  border: solid 1px #00000020;
+  border-radius: 15px;
+  box-shadow: 0 1px 24px rgba(136, 166, 255, 0.04);
+  margin: 10px 5px;
+  /* width:500px; */
+}
+
+.cardCourses {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid 1px #dad5d5;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+.headingCard {
+  text-align: start;
+}
+.linkVeiw ,.moreLink {
+  display: flex;
+  margin: 0px 10px;
+  justify-content: end;
+  align-items: baseline;
+  gap: 10px;
+  color: #008bdc;
+}
+.linkVeiw{
+  margin-top:10px
+}
+.moreLink{
+  justify-content: start;
+  margin-top: -6px;
+}
+.linkCard:hover .linkVeiw {
+  color: #006aa8;
+}
+.linkCard:hover.moreLink{
+  color: #006aa8;
+}
+
+.styleSlide{
+  padding: 20px 0px 0px 20px;
+  background-color: white;
+  border: solid 1px #00000020;
+  border-radius: 15px;
+  box-shadow: 0 1px 24px rgba(136, 166, 255, 0.04);
+  margin: 10px 5px;
+  width:500px;
+}
+
+.moreInternships{
+  background-image:url("	https://internshala.com/static/images/homepage/view_all_internship.png");
+  background-size: 75% 100%;
+  border-radius: 15px;
+  background-repeat: no-repeat;
+  background-position: 125px 14px;
+  display: grid;
+  grid-auto-rows: auto;
+  /* gap: 137px;  */
+height: 100%;
+align-content: space-between;
+  background-color: rgb(255, 255, 255); 
+}
+
+
+@media (max-width:900px){
+  .moreInternships{
+    background-size: 80% 100%;
+    background-position: 80px 19px;
+  }
+}

@@ -1,0 +1,136 @@
+.parent {
+  background-image: url("./banner-1920.png.webp");
+  background-size: cover;
+  margin: 25px 50px;
+  border-radius: 10px;
+  color: aliceblue;
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+}
+@media (max-width: 1351px) {
+  .parent {
+    display: grid;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 901px) {
+  .parent {
+    margin: 0px;
+    border-radius: 0px;
+  }
+}
+
+.containerDerails {
+  display: flex;
+  gap: 1rem;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 851px) {
+  .containerDerails {
+    display: grid;
+  }
+}
+
+.details {
+  /* display: ; */
+  padding: 5px 15px 7px;
+  color: #484848;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  border-radius: 24px;
+  background-color: #fff;
+  width: fit-content;
+}
+
+.offer {
+  display: flex;
+  background-color: white;
+  align-items: center;
+  padding: 8px 10px;
+  margin: 20px 0px;
+  border-radius: 5px;
+  width: fit-content;
+  margin-top: 30px;
+}
+
+.containerEnroll {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  align-items: center;
+}
+
+@media (max-width: 501px) {
+  .containerEnroll {
+    margin-top: -10px;
+    display: grid;
+    justify-content: center;
+  }
+}
+.iconEle {
+  color: #1b6ba6;
+  background-color: rgb(234, 252, 255);
+  font-size: 30px;
+  padding: 10px 15px;
+  border-radius: 6px;
+}
+
+.titleEle {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.hintELe {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #484848;
+}
+
+
+.styleCarosel{
+    margin: 10px 200px;
+}
+
+@media (max-width:990px) {
+
+.styleCarosel{
+    margin: 10px 100px;
+}
+}
+@media (max-width: 975px) {
+  .boxImage {
+    display: flex;
+    justify-content: center;
+}
+.styleBack{
+    background-color: rgb(234, 252, 255);
+}
+}
+
+@media (max-width: 591px) {
+    .imgCourse {
+        width: 75%;
+        height: 100%;
+    }
+    .styleCarosel{
+        margin: 10px 50px;
+    }
+}
+
+
+@media (max-width: 400px) {
+    
+    .styleCarosel{
+        margin: 10px 5px;
+    }
+}

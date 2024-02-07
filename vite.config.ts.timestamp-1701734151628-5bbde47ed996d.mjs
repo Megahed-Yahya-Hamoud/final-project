@@ -1,0 +1,19 @@
+// vite.config.ts
+import mongezVite from "file:///G:/course_fornt-end/learn_1/project/test/node_modules/@mongez/vite/esm/index.js";
+import react from "file:///G:/course_fornt-end/learn_1/project/test/node_modules/@vitejs/plugin-react-swc/index.mjs";
+import { defineConfig } from "file:///G:/course_fornt-end/learn_1/project/test/node_modules/vite/dist/node/index.js";
+import svgr from "file:///G:/course_fornt-end/learn_1/project/test/node_modules/vite-plugin-svgr/dist/index.js";
+var vite_config_default = defineConfig(() => ({
+  plugins: [
+    // needed to load SVG as components
+    svgr(),
+    // needed to manage .env file and link tsconfig paths aliases
+    mongezVite(),
+    react()
+  ],
+  envPrefix: "APP_"
+}));
+export {
+  vite_config_default as default
+};
+//# sourceMappingURL=data:application/json;base64,ewogICJ2ZXJzaW9uIjogMywKICAic291cmNlcyI6IFsidml0ZS5jb25maWcudHMiXSwKICAic291cmNlc0NvbnRlbnQiOiBbImNvbnN0IF9fdml0ZV9pbmplY3RlZF9vcmlnaW5hbF9kaXJuYW1lID0gXCJHOlxcXFxjb3Vyc2VfZm9ybnQtZW5kXFxcXGxlYXJuXzFcXFxccHJvamVjdFxcXFx0ZXN0XCI7Y29uc3QgX192aXRlX2luamVjdGVkX29yaWdpbmFsX2ZpbGVuYW1lID0gXCJHOlxcXFxjb3Vyc2VfZm9ybnQtZW5kXFxcXGxlYXJuXzFcXFxccHJvamVjdFxcXFx0ZXN0XFxcXHZpdGUuY29uZmlnLnRzXCI7Y29uc3QgX192aXRlX2luamVjdGVkX29yaWdpbmFsX2ltcG9ydF9tZXRhX3VybCA9IFwiZmlsZTovLy9HOi9jb3Vyc2VfZm9ybnQtZW5kL2xlYXJuXzEvcHJvamVjdC90ZXN0L3ZpdGUuY29uZmlnLnRzXCI7aW1wb3J0IG1vbmdlelZpdGUgZnJvbSBcIkBtb25nZXovdml0ZVwiO1xuaW1wb3J0IHJlYWN0IGZyb20gXCJAdml0ZWpzL3BsdWdpbi1yZWFjdC1zd2NcIjtcbmltcG9ydCB7IGRlZmluZUNvbmZpZyB9IGZyb20gXCJ2aXRlXCI7XG5pbXBvcnQgc3ZnciBmcm9tIFwidml0ZS1wbHVnaW4tc3ZnclwiO1xuXG4vLyBodHRwczovL3ZpdGVqcy5kZXYvY29uZmlnL1xuZXhwb3J0IGRlZmF1bHQgZGVmaW5lQ29uZmlnKCgpID0+ICh7XG4gIHBsdWdpbnM6IFtcbiAgICAvLyBuZWVkZWQgdG8gbG9hZCBTVkcgYXMgY29tcG9uZW50c1xuICAgIHN2Z3IoKSxcbiAgICAvLyBuZWVkZWQgdG8gbWFuYWdlIC5lbnYgZmlsZSBhbmQgbGluayB0c2NvbmZpZyBwYXRocyBhbGlhc2VzXG4gICAgbW9uZ2V6Vml0ZSgpLFxuICAgIHJlYWN0KCksXG4gIF0sXG4gIGVudlByZWZpeDogXCJBUFBfXCIsXG59KSk7XG4iXSwKICAibWFwcGluZ3MiOiAiO0FBQW9ULE9BQU8sZ0JBQWdCO0FBQzNVLE9BQU8sV0FBVztBQUNsQixTQUFTLG9CQUFvQjtBQUM3QixPQUFPLFVBQVU7QUFHakIsSUFBTyxzQkFBUSxhQUFhLE9BQU87QUFBQSxFQUNqQyxTQUFTO0FBQUE7QUFBQSxJQUVQLEtBQUs7QUFBQTtBQUFBLElBRUwsV0FBVztBQUFBLElBQ1gsTUFBTTtBQUFBLEVBQ1I7QUFBQSxFQUNBLFdBQVc7QUFDYixFQUFFOyIsCiAgIm5hbWVzIjogW10KfQo=
