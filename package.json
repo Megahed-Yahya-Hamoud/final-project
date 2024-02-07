@@ -14,7 +14,8 @@
     "preview": "vite preview",
     "prepare": "husky install",
     "tsc": "npx tsc --noEmit",
-    "json-server": "node -r esm src/apps/front-office/design-system/components/db.json"
+    "json-server": "node -r esm src/apps/front-office/design-system/components/db.json",
+    "open-server":"json-server --watch src/apps/front-office/design-system/components/db.json"
   },
   "dependencies": {
     "@mantine/carousel": "^7.5.1",
