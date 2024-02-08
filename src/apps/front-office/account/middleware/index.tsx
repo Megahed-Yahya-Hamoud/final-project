@@ -1,15 +1,15 @@
 import cache from "@mongez/cache";
 import { navigateTo } from "@mongez/react-router";
-import user from "apps/front-office/account/user";
 import URLS from "apps/front-office/utils/urls";
 
 /**
  * Use this middleware if the page requires the user to be logged in
  */
 export function Guardian() {
-  if (!user.isLoggedIn() || user.isGuest()) {
+  if (!cache.has("loggedInUser")) {
     return navigateTo(URLS.auth.login);
   }
+  return null;
 }
 
 /**
