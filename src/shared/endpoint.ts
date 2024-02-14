@@ -4,11 +4,11 @@ import { navigateTo } from "@mongez/react-router";
 import user from "apps/front-office/account/user";
 import URLS from "apps/front-office/utils/urls";
 import { AxiosResponse } from "axios";
-import { apiBaseUrl, apiKey, apiOS } from "./flags";
+import { apiKey, apiOS } from "./flags";
 
 const endpoint = new Endpoint({
   putToPost: false,
-  baseURL: apiBaseUrl,
+  baseURL: "http://localhost:3000",
   cache: false,
   cacheOptions: {
     driver: new RunTimeDriver(),

@@ -619,7 +619,7 @@ export default function LestInternship() {
     fetch("http://localhost:3000/categories")
       .then(res => res.json())
       .then(data => setCategory(data));
-  });
+  }, []);
 
   const [active, setActive] = useState(category[0]);
 

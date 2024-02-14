@@ -12,10 +12,10 @@ import {
 import { useDisclosure } from "@mantine/hooks";
 import { Link } from "@mongez/react-router";
 import { IconSearch } from "@tabler/icons-react";
+import { UserInfoMob } from "apps/front-office/design-system/layouts/UserInfoMobile/UserInfoMob";
+import { UserInfo } from "apps/front-office/design-system/layouts/userInfo/UserInfo";
 import URLS from "apps/front-office/utils/urls";
 import Search from "../search/Search";
-import { UserInfo } from "../userInfo/UserInfo";
-import { UserInfoMob } from "./../UserInfoMobile/UserInfoMob";
 import classes from "./StyleHeader.module.css";
 
 const links = [

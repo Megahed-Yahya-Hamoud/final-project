@@ -1,21 +1,18 @@
 import { Avatar, Button, Group, Text, UnstyledButton } from "@mantine/core";
-import { notifications } from "@mantine/notifications";
 import cache from "@mongez/cache";
+import { navigateTo } from "@mongez/react-router";
+import { toastSuccess } from "apps/front-office/design-system/components/Toast/Toast";
+import user from "apps/front-office/design-system/layouts/User";
+import URLS from "apps/front-office/utils/urls";
 import Search from "../search/Search";
 import classes from "./UserInfo.module.css";
-
 export function UserInfo() {
-  let user = cache.get("loggedInUser");
-
+  const userData = cache.get("loggedInUser");
   function logout() {
     cache.remove("loggedInUser");
-    notifications.show({
-      message: "Success logout",
-      color: "green",
-    });
-    setTimeout(() => {
-      location.href = "/login";
-    }, 1000);
+    user.logout();
+    toastSuccess("Logout successfully");
+    navigateTo(URLS.auth.login);
   }
   return (
     <UnstyledButton className={classes.user}>
@@ -28,11 +25,11 @@ export function UserInfo() {
 
         <div style={{ flex: 1 }}>
           <Text size="sm" fw={500}>
-            {user.username}
+            {userData.username}
           </Text>
 
           <Text c="dimmed" size="xs">
-            {user.email}
+            {userData.email}
           </Text>
         </div>
         <Button

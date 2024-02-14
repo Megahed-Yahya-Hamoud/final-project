@@ -1,0 +1,12 @@
+.input_wrapper {
+
+    input,
+    textarea {
+        background: var(--mantine-color-gray-0);
+    }
+
+    label {
+        font-size: 1.1rem;
+        color: var(--mantine-color-dark-4);
+    }
+}
