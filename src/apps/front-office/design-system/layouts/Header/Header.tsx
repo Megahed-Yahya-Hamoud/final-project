@@ -54,6 +54,9 @@ export default function Header() {
         <Group justify="space-between" h="100%">
           <Box className={classes.boxLogo}>
             <Image
+              onClick={() => {
+                location.href = "/";
+              }}
               radius="xl"
               h={80}
               w={250}

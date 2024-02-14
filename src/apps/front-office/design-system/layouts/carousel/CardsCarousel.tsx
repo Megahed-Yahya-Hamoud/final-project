@@ -41,7 +41,7 @@ export function CardsCarousel() {
   return (
     <div>
       <p className={classes.trending}>
-        Trending on internShips{" "}
+        Trending on internships{" "}
         <i className="fa-solid fa-fire" style={{ color: "#f62 " }}></i>
       </p>
       <Carousel

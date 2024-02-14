@@ -11,6 +11,9 @@ export default function Footer() {
           <div>
             <div className={classes.upImage}>
               <img
+                onClick={() => {
+                  location.href = "/";
+                }}
                 className={classes.imageFooter}
                 // src="https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/256x256/bf2bff25fe751375afbb0fd63cebc52e"
                 // src="https://images.squarespace-cdn.com/content/v1/5c2cbb6aec4eb70767c6ffde/1652959405799-FC8IWUKWVBOGW4950LVW/2.png?format=2500w"
@@ -99,23 +102,23 @@ export default function Footer() {
         <div
           className={classes.iconSocial}
           style={{ display: "flex", gap: "12px" }}>
-          <a href="#">
+          <a href="https://www.instagram.com">
             <i
               style={{ fontSize: "25px", color: "aliceblue" }}
               className="fa-brands fa-instagram"></i>
           </a>
-          <a href="#">
+          <a href="https://www.twitter.com">
             <i
               style={{ fontSize: "25px", color: "aliceblue" }}
               className="fa-brands fa-twitter"></i>
           </a>
 
-          <a href="#">
+          <a href="https://www.linkedin.com">
             <i
               style={{ fontSize: "25px", color: "aliceblue" }}
               className="fa-brands fa-linkedin-in"></i>
           </a>
-          <a href="#">
+          <a href="https://www.youtube.com">
             <i
               style={{ fontSize: "25px", color: "aliceblue" }}
               className="fa-brands fa-youtube"></i>
