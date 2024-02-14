@@ -32,7 +32,7 @@ export default function Register() {
       });
       setTimeout(() => {
         location.href = "/login";
-      }, 2000);
+      }, 1000);
     }
   }
 

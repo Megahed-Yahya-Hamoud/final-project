@@ -5,8 +5,8 @@ import Search from "../search/Search";
 import classes from "./UserInfo.module.css";
 
 export function UserInfo() {
-  let user = cache.get("loggedInUser");
-
+  const user = cache.get("loggedInUser");
+  console.log(user.username);
   function logout() {
     cache.remove("loggedInUser");
     notifications.show({

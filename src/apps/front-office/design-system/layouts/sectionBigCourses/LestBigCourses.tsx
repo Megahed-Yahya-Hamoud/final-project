@@ -128,63 +128,58 @@ export default function LestBigCourses() {
         slideGap={{ base: 0, sm: "md" }}
         loop
         align="start">
-        {bigCourses.map(
-          item => (
-            console.log(item),
-            (
-              <Carousel.Slide key={item.id} style={{ padding: "0px 20px" }}>
-                <div className={classes.box}>
-                  <Link
-                    to={URLS.viewBigCourses(item)}
-                    style={{ textDecoration: "none" }}>
-                    <img
-                      src={item.img}
-                      className={classes.img}
-                      width={"100%"}
-                      height={"35%"}
-                    />
-                    <div className={classes.description}>
-                      <p
-                        style={{
-                          color: "#333",
-                          fontWeight: 700,
-                          fontSize: "20px ",
-                          marginBottom: "0px",
-                        }}>
-                        {item.title}
-                      </p>
-                      <p className={classes.hint}>{item.hint}</p>
-                      <p className={classes.details}>
-                        {" "}
-                        <i
-                          className="fa-regular fa-clock"
-                          style={{ paddingRight: "2px" }}></i>{" "}
-                        {item.time} months course
-                      </p>
-                      <p className={classes.details}>
-                        <i
-                          className="fa-solid fa-dollar-sign"
-                          style={{ paddingRight: "2px" }}></i>
-                        {item.price}
-                      </p>
-                      <p className={classes.details}>
-                        {" "}
-                        <i
-                          className="fa-solid fa-suitcase"
-                          style={{ paddingRight: "3px" }}></i>
-                        {item.offer}
-                        <span className={classes.opp}>opportunities</span>
-                      </p>
-                      <a style={{ color: "#2ae" }}>
-                        Know more <i className="fa-solid fa-angle-right"></i>{" "}
-                      </a>
-                    </div>
-                  </Link>
+        {bigCourses.map(item => (
+          <Carousel.Slide key={item.id} style={{ padding: "0px 20px" }}>
+            <div className={classes.box}>
+              <Link
+                to={URLS.viewBigCourses(item)}
+                style={{ textDecoration: "none" }}>
+                <img
+                  src={item.img}
+                  className={classes.img}
+                  width={"100%"}
+                  height={"35%"}
+                />
+                <div className={classes.description}>
+                  <p
+                    style={{
+                      color: "#333",
+                      fontWeight: 700,
+                      fontSize: "20px ",
+                      marginBottom: "0px",
+                    }}>
+                    {item.title}
+                  </p>
+                  <p className={classes.hint}>{item.hint}</p>
+                  <p className={classes.details}>
+                    {" "}
+                    <i
+                      className="fa-regular fa-clock"
+                      style={{ paddingRight: "2px" }}></i>{" "}
+                    {item.time} months course
+                  </p>
+                  <p className={classes.details}>
+                    <i
+                      className="fa-solid fa-dollar-sign"
+                      style={{ paddingRight: "2px" }}></i>
+                    {item.price}
+                  </p>
+                  <p className={classes.details}>
+                    {" "}
+                    <i
+                      className="fa-solid fa-suitcase"
+                      style={{ paddingRight: "3px" }}></i>
+                    {item.offer}
+                    <span className={classes.opp}>opportunities</span>
+                  </p>
+                  <a style={{ color: "#2ae" }}>
+                    Know more <i className="fa-solid fa-angle-right"></i>{" "}
+                  </a>
                 </div>
-              </Carousel.Slide>
-            )
-          ),
-        )}
+              </Link>
+            </div>
+          </Carousel.Slide>
+        ))}
       </Carousel>
     </div>
   );

@@ -147,7 +147,7 @@ export default function BigCoursesPage({ params }: any) {
               </span>
             </Text>
             <Text fz={25} my={10} fw={600} c={"white"}>
-              Get confirmed $150,000 total stipend
+              Get confirmed $15,000 total stipend
             </Text>
           </Box>
 
