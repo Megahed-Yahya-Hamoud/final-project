@@ -29,7 +29,6 @@ export default function Header() {
   const [drawerOpened, { toggle: toggleDrawer, close: closeDrawer }] =
     useDisclosure(false);
 
-  // const [active, setActive] = useState(links[0].link);
   const active = window.location.pathname.split("/")[2] || "/";
 
   const items = links.map(link => {
@@ -38,11 +37,7 @@ export default function Header() {
         key={link.id}
         href={link.link}
         className={classes.link}
-        data-active={link.link.endsWith(active) || undefined}
-        onClick={() => {
-          // console.log("fuc you", link.link, active);
-          // setActive(link.link);
-        }}>
+        data-active={link.link.endsWith(active) || undefined}>
         {link.label}
       </a>
     );
