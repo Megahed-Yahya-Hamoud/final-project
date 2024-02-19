@@ -40,7 +40,7 @@ export default function Header() {
         className={classes.link}
         data-active={link.link.endsWith(active) || undefined}
         onClick={() => {
-          console.log("fuc you", link.link, active);
+          // console.log("fuc you", link.link, active);
           // setActive(link.link);
         }}>
         {link.label}

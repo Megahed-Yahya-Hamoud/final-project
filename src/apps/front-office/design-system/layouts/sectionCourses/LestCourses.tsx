@@ -3,66 +3,7 @@ import { Link } from "@mongez/react-router";
 import URLS from "apps/front-office/utils/urls";
 import { useEffect, useState } from "react";
 import classes from "./LestCourses.module.css";
-// const dataCourses = [
-//   {
-//     id: 1,
-//     img: "https://internshala.com/static/images/home/trainings/images/web_development.png",
-//     time: 8,
-//     rate: 4.1,
-//     title: "Web Development",
-//     student: "91,500",
-//     link: "/internships",
-//   },
-//   {
-//     id: 2,
-//     img: "https://internshala.com/static/images/home/trainings/images/python.png",
-//     time: 6,
-//     rate: 4.1,
-//     title: "Programming with Python",
-//     student: "73,000",
-//     link: "/internships",
-//   },
-//   {
-//     id: 3,
-//     img: "https://internshala.com/static/images/home/trainings/images/digital_marketing.png",
-//     time: 8,
-//     rate: 4.1,
-//     title: "Digital Marketing",
-//     student: "53,913",
-//     link: "/internships",
-//   },
-//   {
-//     id: 4,
-//     img: "https://internshala.com/static/images/home/trainings/images/machine_learning.png",
-//     time: 6,
-//     rate: 4.5,
-//     title: "Machine learning",
-//     student: "28,865",
-//     link: "/internships",
-//   },
-//   {
-//     id: 5,
-//     img: "https://internshala.com/static/images/home/trainings/images/excel.png",
-//     rate: 4.4,
-//     time: 4,
-//     title: "Advanced Excel",
-//     student: "30,440",
-//     link: "/internships",
-//   },
-//   {
-//     id: 6,
-//     img: "https://internshala.com/static/images/home/trainings/images/programming_with_c_and_c++.png",
-//     time: 8,
-//     title: "Programming with C and C++",
-//     student: "28,900",
-//     link: "/internships",
-//   },
-//   {
-//     id: 7,
-//     title: "Learn in-demand skills and get certified ",
-//     link: "/courses",
-//   },
-// ];
+
 export type CoursesProps = {
   id: number;
   img: string;

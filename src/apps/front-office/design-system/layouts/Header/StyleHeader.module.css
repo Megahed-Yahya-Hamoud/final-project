@@ -81,6 +81,6 @@
   border-radius: 10px;
 
   [data-mantine-color-scheme] &[data-active] {
-    box-shadow: rgb(119 231 247) 0px 4px 12px;
+    box-shadow: rgb(192, 243, 251) 0px 4px 10px;
   }
 }

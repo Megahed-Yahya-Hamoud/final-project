@@ -38,7 +38,13 @@
       "salary": 8000,
       "time": "3 Months",
       "publication": "3 weeks ago",
-      "skills": ["Html", "CSS", "JS", "BootStrap", "GitHub"]
+      "skills": [
+        "Html",
+        "CSS",
+        "JS",
+        "BootStrap",
+        "GitHub"
+      ]
     },
     {
       "id": 2,
@@ -70,7 +76,13 @@
       "salary": 4000,
       "time": "6 Months",
       "publication": "4 weeks ago",
-      "skills": ["Html", "CSS", "JS", "MySQl", "GitHub"]
+      "skills": [
+        "Html",
+        "CSS",
+        "JS",
+        "MySQl",
+        "GitHub"
+      ]
     },
     {
       "id": 4,
@@ -83,7 +95,12 @@
       "salary": 5000,
       "time": "3 Months",
       "publication": "1 weeks ago",
-      "skills": ["MongoDB", "Node.js", "JS", "GitHub"]
+      "skills": [
+        "MongoDB",
+        "Node.js",
+        "JS",
+        "GitHub"
+      ]
     },
     {
       "id": 5,
@@ -96,7 +113,14 @@
       "salary": 8000,
       "time": "5 Months",
       "publication": "5 weeks ago",
-      "skills": ["Html", "CSS", "JS", "MongoDB", "Node.js", "GitHub"]
+      "skills": [
+        "Html",
+        "CSS",
+        "JS",
+        "MongoDB",
+        "Node.js",
+        "GitHub"
+      ]
     },
     {
       "id": 6,
@@ -109,7 +133,13 @@
       "salary": 5000,
       "time": "3 Months",
       "publication": "3 weeks ago",
-      "skills": ["Html", "CSS", "JS", "BootStrap", "GitHub"]
+      "skills": [
+        "Html",
+        "CSS",
+        "JS",
+        "BootStrap",
+        "GitHub"
+      ]
     },
     {
       "id": 7,
@@ -142,7 +172,13 @@
       "salary": 9000,
       "time": "6 Months",
       "publication": "2 weeks ago",
-      "skills": ["Html", "CSS", "JS", "MySQl", "GitHub"]
+      "skills": [
+        "Html",
+        "CSS",
+        "JS",
+        "MySQl",
+        "GitHub"
+      ]
     },
     {
       "id": 9,
@@ -155,7 +191,12 @@
       "salary": 3000,
       "time": "4 Months",
       "publication": "6 weeks ago",
-      "skills": ["MongoDB", "Node.js", "JS", "GitHub"]
+      "skills": [
+        "MongoDB",
+        "Node.js",
+        "JS",
+        "GitHub"
+      ]
     },
     {
       "id": 10,
@@ -168,7 +209,14 @@
       "salary": 5000,
       "time": "2 Months",
       "publication": "1 weeks ago",
-      "skills": ["Html", "CSS", "JS", "MongoDB", "Node.js", "GitHub"]
+      "skills": [
+        "Html",
+        "CSS",
+        "JS",
+        "MongoDB",
+        "Node.js",
+        "GitHub"
+      ]
     },
     {
       "id": 11,
@@ -201,7 +249,13 @@
       "salary": 4000,
       "time": "5 Months",
       "publication": "4 weeks ago",
-      "skills": ["Html", "CSS", "JS", "BootStrap", "GitHub"]
+      "skills": [
+        "Html",
+        "CSS",
+        "JS",
+        "BootStrap",
+        "GitHub"
+      ]
     },
     {
       "id": 13,
@@ -213,7 +267,13 @@
       "salary": 3000,
       "time": "4 Months",
       "publication": "6 weeks ago",
-      "skills": ["Html", "CSS", "JS", "MySQl", "GitHub"]
+      "skills": [
+        "Html",
+        "CSS",
+        "JS",
+        "MySQl",
+        "GitHub"
+      ]
     },
     {
       "id": 14,
@@ -226,7 +286,12 @@
       "salary": 7000,
       "time": "3 Months",
       "publication": "4 weeks ago",
-      "skills": ["MongoDB", "Node.js", "JS", "GitHub"]
+      "skills": [
+        "MongoDB",
+        "Node.js",
+        "JS",
+        "GitHub"
+      ]
     },
     {
       "id": 15,
@@ -239,7 +304,14 @@
       "salary": 3000,
       "time": "5 Months",
       "publication": "1 weeks ago",
-      "skills": ["Html", "CSS", "JS", "MongoDB", "Node.js", "GitHub"]
+      "skills": [
+        "Html",
+        "CSS",
+        "JS",
+        "MongoDB",
+        "Node.js",
+        "GitHub"
+      ]
     },
     {
       "id": 16,
@@ -252,7 +324,13 @@
       "salary": 6000,
       "time": "3 Months",
       "publication": "3 weeks ago",
-      "skills": ["Html", "CSS", "JS", "BootStrap", "GitHub"]
+      "skills": [
+        "Html",
+        "CSS",
+        "JS",
+        "BootStrap",
+        "GitHub"
+      ]
     },
     {
       "id": 17,
@@ -285,7 +363,13 @@
       "salary": 8000,
       "time": "6 Months",
       "publication": "2 weeks ago",
-      "skills": ["Html", "CSS", "JS", "MySQl", "GitHub"]
+      "skills": [
+        "Html",
+        "CSS",
+        "JS",
+        "MySQl",
+        "GitHub"
+      ]
     },
     {
       "id": 19,
@@ -298,7 +382,12 @@
       "salary": 5000,
       "time": "4 Months",
       "publication": "3 weeks ago",
-      "skills": ["MongoDB", "Node.js", "JS", "GitHub"]
+      "skills": [
+        "MongoDB",
+        "Node.js",
+        "JS",
+        "GitHub"
+      ]
     },
     {
       "id": 20,
@@ -311,7 +400,14 @@
       "salary": 7000,
       "time": "4 Months",
       "publication": "2 weeks ago",
-      "skills": ["Html", "CSS", "JS", "MongoDB", "Node.js", "GitHub"]
+      "skills": [
+        "Html",
+        "CSS",
+        "JS",
+        "MongoDB",
+        "Node.js",
+        "GitHub"
+      ]
     },
     {
       "id": 21,
@@ -324,7 +420,13 @@
       "salary": 3000,
       "time": "6 Months",
       "publication": "7 weeks ago",
-      "skills": ["Html", "CSS", "JS", "BootStrap", "GitHub"]
+      "skills": [
+        "Html",
+        "CSS",
+        "JS",
+        "BootStrap",
+        "GitHub"
+      ]
     },
     {
       "id": 22,
@@ -357,7 +459,13 @@
       "salary": 6000,
       "time": "3 Months",
       "publication": "3 weeks ago",
-      "skills": ["Html", "CSS", "JS", "MySQl", "GitHub"]
+      "skills": [
+        "Html",
+        "CSS",
+        "JS",
+        "MySQl",
+        "GitHub"
+      ]
     },
     {
       "id": 24,
@@ -369,7 +477,12 @@
       "salary": 4000,
       "time": "5 Months",
       "publication": "6 weeks ago",
-      "skills": ["MongoDB", "Node.js", "JS", "GitHub"]
+      "skills": [
+        "MongoDB",
+        "Node.js",
+        "JS",
+        "GitHub"
+      ]
     },
     {
       "id": 25,
@@ -382,7 +495,14 @@
       "salary": 8000,
       "time": "6 Months",
       "publication": "2 weeks ago",
-      "skills": ["Html", "CSS", "JS", "MongoDB", "Node.js", "GitHub"]
+      "skills": [
+        "Html",
+        "CSS",
+        "JS",
+        "MongoDB",
+        "Node.js",
+        "GitHub"
+      ]
     }
   ],
   "jobs": [
@@ -420,7 +540,12 @@
       "maxSalary": 1100,
       "publication": "5 weeks ago",
       "experience": "1-3 years",
-      "skills": ["MongoDB", "Node.js", "JS", "GitHub"]
+      "skills": [
+        "MongoDB",
+        "Node.js",
+        "JS",
+        "GitHub"
+      ]
     },
     {
       "id": 3,
@@ -434,7 +559,13 @@
       "maxSalary": 10000,
       "publication": "4 weeks ago",
       "experience": "1-2 years",
-      "skills": ["Html", "CSS", "JS", "BootStrap", "GitHub"]
+      "skills": [
+        "Html",
+        "CSS",
+        "JS",
+        "BootStrap",
+        "GitHub"
+      ]
     },
     {
       "id": 4,
@@ -448,7 +579,14 @@
       "maxSalary": 12000,
       "publication": "2 weeks ago",
       "experience": "2-4 years",
-      "skills": ["Html", "CSS", "JS", "MongoDB", "Node.js", "GitHub"]
+      "skills": [
+        "Html",
+        "CSS",
+        "JS",
+        "MongoDB",
+        "Node.js",
+        "GitHub"
+      ]
     },
     {
       "id": 5,
@@ -462,7 +600,13 @@
       "maxSalary": 11000,
       "publication": "1 weeks ago",
       "experience": "0-2 years",
-      "skills": ["Html", "CSS", "JS", "MySQl", "GitHub"]
+      "skills": [
+        "Html",
+        "CSS",
+        "JS",
+        "MySQl",
+        "GitHub"
+      ]
     },
     {
       "id": 6,
@@ -476,7 +620,13 @@
       "maxSalary": 10000,
       "publication": "4 weeks ago",
       "experience": "1-2 years",
-      "skills": ["Html", "CSS", "JS", "BootStrap", "GitHub"]
+      "skills": [
+        "Html",
+        "CSS",
+        "JS",
+        "BootStrap",
+        "GitHub"
+      ]
     },
     {
       "id": 7,
@@ -512,7 +662,13 @@
       "maxSalary": 12000,
       "publication": "3 weeks ago",
       "experience": "3-4 years",
-      "skills": ["Html", "CSS", "JS", "MySQl", "GitHub"]
+      "skills": [
+        "Html",
+        "CSS",
+        "JS",
+        "MySQl",
+        "GitHub"
+      ]
     },
     {
       "id": 9,
@@ -526,7 +682,12 @@
       "maxSalary": 11000,
       "publication": "1 weeks ago",
       "experience": "0-2 years",
-      "skills": ["MongoDB", "Node.js", "JS", "GitHub"]
+      "skills": [
+        "MongoDB",
+        "Node.js",
+        "JS",
+        "GitHub"
+      ]
     },
     {
       "id": 10,
@@ -540,7 +701,14 @@
       "maxSalary": 13000,
       "publication": "2 weeks ago",
       "experience": "1-3 years",
-      "skills": ["Html", "CSS", "JS", "MongoDB", "Node.js", "GitHub"]
+      "skills": [
+        "Html",
+        "CSS",
+        "JS",
+        "MongoDB",
+        "Node.js",
+        "GitHub"
+      ]
     },
     {
       "id": 11,
@@ -554,7 +722,13 @@
       "maxSalary": 10000,
       "publication": "5 weeks ago",
       "experience": "2-3 years",
-      "skills": ["Html", "CSS", "JS", "BootStrap", "GitHub"]
+      "skills": [
+        "Html",
+        "CSS",
+        "JS",
+        "BootStrap",
+        "GitHub"
+      ]
     },
     {
       "id": 12,
@@ -590,7 +764,13 @@
       "maxSalary": 12000,
       "publication": "6 weeks ago",
       "experience": "0-2 years",
-      "skills": ["Html", "CSS", "JS", "MySQl", "GitHub"]
+      "skills": [
+        "Html",
+        "CSS",
+        "JS",
+        "MySQl",
+        "GitHub"
+      ]
     },
     {
       "id": 14,
@@ -604,7 +784,12 @@
       "maxSalary": 11000,
       "publication": "4 weeks ago",
       "experience": "1-2 years",
-      "skills": ["MongoDB", "Node.js", "JS", "GitHub"]
+      "skills": [
+        "MongoDB",
+        "Node.js",
+        "JS",
+        "GitHub"
+      ]
     },
     {
       "id": 15,
@@ -618,7 +803,14 @@
       "maxSalary": 15000,
       "publication": "6 weeks ago",
       "experience": "1-3 years",
-      "skills": ["Html", "CSS", "JS", "MongoDB", "Node.js", "GitHub"]
+      "skills": [
+        "Html",
+        "CSS",
+        "JS",
+        "MongoDB",
+        "Node.js",
+        "GitHub"
+      ]
     },
     {
       "id": 16,
@@ -632,7 +824,13 @@
       "maxSalary": 12000,
       "publication": "1 weeks ago",
       "experience": "2-4 years",
-      "skills": ["Html", "CSS", "JS", "BootStrap", "GitHub"]
+      "skills": [
+        "Html",
+        "CSS",
+        "JS",
+        "BootStrap",
+        "GitHub"
+      ]
     },
     {
       "id": 17,
@@ -668,7 +866,13 @@
       "maxSalary": 11000,
       "publication": "3 weeks ago",
       "experience": "1-3 years",
-      "skills": ["Html", "CSS", "JS", "MySQl", "GitHub"]
+      "skills": [
+        "Html",
+        "CSS",
+        "JS",
+        "MySQl",
+        "GitHub"
+      ]
     },
     {
       "id": 19,
@@ -682,7 +886,12 @@
       "maxSalary": 14000,
       "publication": "6 weeks ago",
       "experience": "3-4 years",
-      "skills": ["MongoDB", "Node.js", "JS", "GitHub"]
+      "skills": [
+        "MongoDB",
+        "Node.js",
+        "JS",
+        "GitHub"
+      ]
     },
     {
       "id": 20,
@@ -696,7 +905,14 @@
       "maxSalary": 18000,
       "publication": "5 weeks ago",
       "experience": "3-5 years",
-      "skills": ["Html", "CSS", "JS", "MongoDB", "Node.js", "GitHub"]
+      "skills": [
+        "Html",
+        "CSS",
+        "JS",
+        "MongoDB",
+        "Node.js",
+        "GitHub"
+      ]
     },
     {
       "id": 21,
@@ -710,7 +926,13 @@
       "maxSalary": 12000,
       "publication": "4 weeks ago",
       "experience": "1-2 years",
-      "skills": ["Html", "CSS", "JS", "BootStrap", "GitHub"]
+      "skills": [
+        "Html",
+        "CSS",
+        "JS",
+        "BootStrap",
+        "GitHub"
+      ]
     },
     {
       "id": 22,
@@ -746,7 +968,13 @@
       "maxSalary": 10000,
       "publication": "1 weeks ago",
       "experience": "0-2 years",
-      "skills": ["Html", "CSS", "JS", "MySQl", "GitHub"]
+      "skills": [
+        "Html",
+        "CSS",
+        "JS",
+        "MySQl",
+        "GitHub"
+      ]
     },
     {
       "id": 24,
@@ -760,7 +988,12 @@
       "maxSalary": 12000,
       "publication": "6 weeks ago",
       "experience": "1-3 years",
-      "skills": ["MongoDB", "Node.js", "JS", "GitHub"]
+      "skills": [
+        "MongoDB",
+        "Node.js",
+        "JS",
+        "GitHub"
+      ]
     },
     {
       "id": 25,
@@ -774,7 +1007,14 @@
       "maxSalary": 16000,
       "publication": "2 weeks ago",
       "experience": "0-1 years",
-      "skills": ["Html", "CSS", "JS", "MongoDB", "Node.js", "GitHub"]
+      "skills": [
+        "Html",
+        "CSS",
+        "JS",
+        "MongoDB",
+        "Node.js",
+        "GitHub"
+      ]
     }
   ],
   "courses": [
@@ -963,79 +1203,6 @@
     "Part-time"
   ],
   "users": [
-    {
-      "username": "megahedhamoud",
-      "email": "hmjahd010@gmail.com",
-      "password": "74108520",
-      "id": 1
-    },
-    {
-      "username": "megahedhamoud",
-      "email": "hmjahd010@gmail.com",
-      "password": "74108520",
-      "id": 2
-    },
-    {
-      "username": "megahedhamoud",
-      "email": "hmjahd010@gmail.com",
-      "password": "74108520",
-      "id": 3
-    },
-    {
-      "username": "a.fathy@bodymasters.com.sa",
-      "email": "a.fathy@bodymasters.com.sa",
-      "password": "123456789",
-      "confirmPassword": "123456789",
-      "id": 4
-    },
-    {
-      "username": "a.fathy@bodymasters.com.sa",
-      "email": "geniusboy4444@gmail.com",
-      "password": "123456789",
-      "confirmPassword": "123456789",
-      "id": 5
-    },
-    {
-      "username": "test",
-      "email": "geniusboy4444@gmail.com",
-      "password": "123456789",
-      "confirmPassword": "123456789",
-      "id": 6
-    },
-    {
-      "username": "test",
-      "email": "a.fathy@bodymasters.com.sa",
-      "password": "123456789",
-      "confirmPassword": "123456789",
-      "id": 7
-    },
-    {
-      "username": "test",
-      "email": "geniusboy4444@gmail.com",
-      "password": "123456789",
-      "confirmPassword": "123456789",
-      "id": 8
-    },
-    {
-      "username": "mohamed",
-      "email": "geniusboy4444@gmail.com",
-      "password": "123456789",
-      "confirmPassword": "123456789",
-      "id": 9
-    },
-    {
-      "username": "mohamed",
-      "email": "a.fathy@bodymasters.com.sa",
-      "password": "123456789",
-      "confirmPassword": "123456789",
-      "id": 10
-    },
-    {
-      "username": "Mohamed",
-      "email": "geniusboy4444@gmail.com",
-      "password": "123456789",
-      "confirmPassword": "123456789",
-      "id": 11
-    }
+    
   ]
 }

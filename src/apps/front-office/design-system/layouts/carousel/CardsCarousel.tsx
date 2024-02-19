@@ -8,28 +8,6 @@ export type TrendingProps = {
   img: string;
   link: string;
 };
-// const trendingData = [
-//   {
-//     img: "https://internshala.com/static/images/pgc_course_specific_banners/pgc_homepage_banner_new.png",
-//     link: "/courses",
-//   },
-//   {
-//     img: "https://internshala-uploads.internshala.com/banner-images/home_new/placement_dec23_fh-student.png.webp",
-//     link: "/courses",
-//   },
-//   {
-//     img: "https://internshala-uploads.internshala.com/banner-images/home_new/is_jobs-student.png.webp",
-//     link: "/jobs",
-//   },
-//   {
-//     img: "https://internshala-uploads.internshala.com/banner-images/home_new/isp_39-student.png.webp",
-//     link: "/internships",
-//   },
-//   {
-//     img: "https://internshala-uploads.internshala.com/banner-images/home_new/int_opps-student.png.webp",
-//     link: "/internships",
-//   },
-// ];
 export function CardsCarousel() {
   const [trending, setTrending] = useState<TrendingProps[]>([]);
   useEffect(() => {

@@ -5,11 +5,20 @@
 }
 
 .title {
-    margin-bottom: -10px;
+    margin-bottom: -8px;
+    margin-top: 25px;
     font-family:
       Greycliff CF,
       var(--mantine-font-family);
     font-weight: 900;
+  }
+
+  @media (max-width:450px) {
+    .title {
+     
+        margin-top: 30px;
+       
+      } 
   }
 
   .form{
@@ -22,12 +31,12 @@
 
 
 .field{
-    width: 100%;
-    outline: none;
-    margin-top: 5px;
-    border: 0.5px solid #00000029;
+    /* width: 100%; */
+    /* outline: none; */
+    margin-top: 0px;
+    /* border: 0.5px solid #00000029; */
     border-radius: 5px;
-    padding: 5px;
+    /* padding: 5px; */
 }
 
 .label{
